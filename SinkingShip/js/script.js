@@ -1,3 +1,3 @@
 ﻿function StartGame() {
-    $("#form").hide();
+    $("#form").slideUp();
 }
