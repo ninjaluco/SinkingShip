@@ -19,3 +19,12 @@
     float: left;
     display: table-cell;
 }
+
+.SquareBoom {
+    width: 20px;
+    height: 20px;
+    background-color: black;
+    border: 1px solid #011638;
+    float: left;
+    display: table-cell;
+}
