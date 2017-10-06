@@ -85,7 +85,6 @@
     <Content Include="index.html" />
     <Content Include="js\script.js" />
     <Content Include="Style\SquareStyle.css" />
-    <Content Include="Style\stylesheet.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>

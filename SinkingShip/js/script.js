@@ -1,3 +1,18 @@
 ﻿function StartGame() {
-    $("#form").hide();
+
+    var tableSize = 3;
+    var grid = [];
+
+    for (var i = 0; i < tableSize * tableSize; i++) {
+        $("#gamePlan").append("<div id=\"Square_" + i + "\" class=\"Square\" onclick=\"SquareClicked(" + i + ")\"></div>");
+
+        if ((i + 1) % tableSize == 0)
+            $("#gamePlan").append("<br />");
+    }
+
+
+}
+
+function SquareClicked(i) {
+    $("#Square_" + i).addClass("SquareMiss");
 }
