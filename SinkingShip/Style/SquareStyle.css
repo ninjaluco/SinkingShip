@@ -1,7 +1,21 @@
-﻿#Square {
-    width: 100px;
-    height: 100px;
-    background: #336cc6;
-    border: 3px solid #011638;
+﻿#container{
+    display: table;
+} 
+
+.Square {
+    width: 20px;
+    height: 20px;
+    background-color: #336cc6;
+    border: 1px solid #011638;
+    float: left;
+    display: table-cell;
 }
 
+.SquareMiss {
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    border: 1px solid #011638;
+    float: left;
+    display: table-cell;
+}
